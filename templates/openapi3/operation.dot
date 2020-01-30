@@ -21,7 +21,7 @@
 {{= data.utils.getCodeSamples(data) }}
 {{?}}
 
-`{{= data.methodUpper}} {{=data.method.path}}`
+<span class="method-tag">{{= data.methodUpper}}</span> <p class="path-string">{{=data.method.path}}</p>
 
 {{? data.operation.summary && !data.options.tocSummary}}*{{= data.operation.summary }}*{{?}}
 
